@@ -1,4 +1,4 @@
-FROM spring-boot
+FROM spring-boot:latest
 WORKDIR /app
 CMD ["java", "-jar", "target/SaludarDatos-0.0.1-SNAPSHOT.jar"]
 COPY SaludarDatos/pom.xml .
